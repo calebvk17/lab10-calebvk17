@@ -1,6 +1,5 @@
 from lab10 import eval_rpn, decode_string, daily_temperatures, num_islands
 
-
 def test_eval_rpn():
     assert eval_rpn(["2", "1", "+", "3", "*"]) == 9
     assert eval_rpn(["4", "13", "5", "/", "+"]) == 6
